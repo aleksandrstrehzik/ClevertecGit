@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -11,5 +11,8 @@
 </head>
 <body>
 <h1 class="text">This is home page</h1>
+<div class="text">
+    <a th:href="@{/list}">Список букв</a>
+</div>
 </body>
 </html>
