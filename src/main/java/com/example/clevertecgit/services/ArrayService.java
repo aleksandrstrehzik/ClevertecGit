@@ -8,6 +8,6 @@ import java.util.List;
 public class ArrayService {
 
     public List<String> getArrayList() {
-        return List.of("a", "b", "c");
+        return List.of("a", "b", "c", "d");
     }
 }
